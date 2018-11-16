@@ -4,7 +4,7 @@
 
 function hasFalsyValue(obj) {
 	
-	if (!obj) return false;
+    if (!obj) return false;
     for (var p in obj) {
         if (!hasFalsyValue(obj[p])) return false;
     }
@@ -15,7 +15,7 @@ var obj = {
 	a: "abc",
 	b: 1,
 	c: {
-		first: "abdoul",
+		first: "john",
 		//last:undefined
 	}
 }
