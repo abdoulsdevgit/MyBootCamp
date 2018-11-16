@@ -18,6 +18,7 @@ function getUser(callback) {
 }
 
 // answer
+//
 getUser(function(user) {
     coinToss(user.guess, function(didWin) {
         if (didWin) {
